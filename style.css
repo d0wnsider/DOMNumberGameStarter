@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff9eb;
+  color: #212121;
+  font-family: Lunasima;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #293566;
+}
+
+label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+input[type="number"] {
+  border-radius: 0;
+}
+
+button {
+  border-radius: 0;
+}
+
+section {
+  padding: 1em 0;
+}
+
+#guess-section {
+  padding: 1em .5em;
+}
+
+#history-section {
+  margin: 2em 0;
+  background-color: #171717;
+  color: white;
+}
+
+#history-section ul {
+  list-style-type: none;
+}
+
+#history-section ul li {
+  text-align: center;
+  padding: .4em 0;
+}
